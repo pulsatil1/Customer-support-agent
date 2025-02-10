@@ -1,0 +1,56 @@
+# Temp files
+__pycache__/
+
+#Distribution / packaging
+.Python
+venv/
+env/
+
+#Logs
+logs/
+*.log
+
+#Service database
+*.db
+
+#Deploying
+gunicorn_start
+run/
+*.sock
+
+# DotEnv configuration
+.env
+/.env
+
+# Users
+users.json
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+*.ipynb
+
+# Gradio
+.gradio/
+
+# Mac OS-specific storage files
+.DS_Store
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
