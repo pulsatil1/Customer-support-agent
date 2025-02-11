@@ -16,8 +16,8 @@ This project showcases a conversational agent designed for a virtual platform th
 
 - **Streaming Responses**: Implement a real-time streaming response feature.
 - **Quality Assessment**: Introduce methods to evaluate the model's responses (e.g., leveraging LLM-as-a-judge).
-- **Email Dispatch**: Replace the “dummy” email-sending function with an actual integration to a support team mailbox.
-- **Agent Testing Mechanism**: Develop a robust testing framework to compare performance metrics after changing models, hyperparameters, or prompts.
+- **Agent Testing Mechanism**: Develop a robust testing framework to compare performance metrics after changing architecture, models, hyperparameters, or prompts.
+- **Support request**: Replace the “dummy” support request function with an actual integration to a support team.
 
 ## References and Inspiration
 
