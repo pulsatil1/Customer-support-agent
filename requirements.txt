@@ -6,3 +6,4 @@ langchain_community
 langchain_huggingface
 langchain_ollama
 langgraph
+langfuse

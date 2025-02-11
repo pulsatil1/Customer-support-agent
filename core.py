@@ -18,6 +18,7 @@ from langgraph.prebuilt import ToolNode
 from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import END, StateGraph, START
 from langgraph.prebuilt import tools_condition
+from langfuse.callback import CallbackHandler
 
 from models import AgentState
 
@@ -178,6 +179,9 @@ class ConversationalAgent():
 
         if history:
             self.graph.update_state(config, {"messages": history})
+
+        langfuse_handler = CallbackHandler()
+        config["callbacks"] = [langfuse_handler]
 
         try:
             agent_result = self.graph.invoke(
